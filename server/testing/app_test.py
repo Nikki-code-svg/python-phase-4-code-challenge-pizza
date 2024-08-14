@@ -175,6 +175,8 @@ class TestApp:
                 }
             )
 
+       
+        
             assert response.status_code == 400
             assert response.json['errors'] == ["validation errors"]
 
